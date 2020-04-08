@@ -1,22 +1,18 @@
 # windows-utils
-Miscellaneous batch and other scripts for Windows.
+Miscellaneous batch scripts for Windows.
 
-#### `cleanup_on_startup.bat`
+* **`cleanup_on_startup.bat`**
+  
+  Remove miscellaneous cache & temporary files.
 
-Remove miscellaneous cache & temporary files. Uses other util scripts from this repo.
+* **`empty_folder.bat <path>`**
 
-#### `remove_cache_folders.bat`
+  Recursively remove all files and sub-folders in a folder.
 
-Recursively remove any sub-folders with "cache" in their name from a directory. Usage:
-
-```
-remove_cache_folders.bat <path>
-```
-
-#### `empty_folder.bat`
-
-Recursively remove all files and sub-folders in a folder.
-
-```
-empty_folder.bat <path>
-```
+* **`remove_cache_folders.bat <path>`**
+  
+  Recursively remove any sub-folders with "cache" in their name from a directory. Usage:
+  
+* **`restart_explorer.bat`**
+  
+  Restarts Windows Explorer (main Windows user interface, not to be confused with Internet Explorer).
