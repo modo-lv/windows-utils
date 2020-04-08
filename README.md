@@ -9,7 +9,7 @@ Remove miscellaneous cache & temporary files. Uses other util scripts from this 
 
 Recursively remove any sub-folders with "cache" in their name from a directory. Usage:
 
-```batch
+```
 remove_cache_folders.bat <path>
 ```
 
@@ -17,6 +17,6 @@ remove_cache_folders.bat <path>
 
 Recursively remove all files and sub-folders in a folder.
 
-```batch
+```
 empty_folder.bat <path>
 ```
